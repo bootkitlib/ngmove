@@ -6,7 +6,10 @@ import { RouterModule } from '@angular/router';
   templateUrl: './examples.component.html',
   styleUrl: './examples.component.scss',
   standalone: true,
-  imports: [RouterModule]
+  imports: [RouterModule],
+  animations: [
+    
+  ]
 })
 export class ExamplesComponent {
 }

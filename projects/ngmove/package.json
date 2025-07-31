@@ -1,0 +1,16 @@
+{
+  "name": "@bootkit/ngmove",
+  "version": "0.0.0-alpha.0",
+  "description": "Angular (18+) Animation Library",
+  "homepage": "https://bootkitlib.github.io/",
+  "author": "BootKit",
+  "bugs": "https://github.com/bootkitlib/angular",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

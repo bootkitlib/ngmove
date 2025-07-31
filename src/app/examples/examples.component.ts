@@ -1,5 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { fadeInLeftAnimation } from '@bootkit/ngmove';
 
 @Component({
   selector: 'app-examples',
@@ -8,7 +9,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   animations: [
-    
+    fadeInLeftAnimation
   ]
 })
 export class ExamplesComponent {

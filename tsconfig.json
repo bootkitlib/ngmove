@@ -9,8 +9,8 @@
     "noImplicitReturns": true,
     "baseUrl": "./",
     "paths": {
-      "@bootkit/ngmove/*": [
-        "./projects/ngmove/*"
+      "@bootkit/ngmove": [
+        "./projects/ngmove/src/public-api"
       ],
     },
     "noFallthroughCasesInSwitch": true,

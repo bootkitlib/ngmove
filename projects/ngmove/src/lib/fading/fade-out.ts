@@ -1,4 +1,4 @@
-import { AnimationParams, createAnimation, createLeaveAnimation } from '@bootkit/ngmove/common';
+import { AnimationParams, createAnimation, createLeaveAnimation } from '../common';
 
 const params: AnimationParams = {
     timings: '200ms ease-out',
